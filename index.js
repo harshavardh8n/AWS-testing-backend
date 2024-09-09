@@ -23,4 +23,6 @@ app.get("/todo",(req,res)=>{
     res.status(200).send({data:taskata});
 })
 
-app.listen(5000);
+app.listen(5000,()=>{
+    console.log("server running on 5000");
+});
